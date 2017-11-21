@@ -63,6 +63,7 @@ images.each do |image|
   image_parts = image.split(':')
   image_name = image_parts[0]
   if image_parts.length > 1
+    image_tag = image_parts[1]
     docker_image image_name do
       repo image_name
       tag image_tag
