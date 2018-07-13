@@ -2,7 +2,7 @@
 ## Docker with SGE
 #######################################
 
-[cluster Docker]
+[cluster SGE-Docker]
 FormLayout = selectionpanel
 IconUrl = https://github.com/CycleCloudCommunity/docker/raw/master/icon.png
 Category = Applications
